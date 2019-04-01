@@ -1,15 +1,15 @@
 function Scooter(year, color, model){
-  this.year;
-  this.color;
-  this.model;
+  this.year = year;
+  this.color = color;
+  this.model = model;
 }
 
 function Driver(name, age, experience){
-  this.name;
-  this.age;
-  this.experience;
+  this.name = name;
+  this.age = age;
+  this.experience = experience;
 }
 function PickupLocation(address, city){
-  this.address;
-  this.city;
+  this.address = address;
+  this.city = city;
 }
